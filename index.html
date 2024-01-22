@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d98c3039df.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+      </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+      </style>
+</head>
+<body>
+    <div class="shippingHeader">
+        <i class="fa-solid fa-truck"></i>
+        <p class="bText">Fri fragt ved køb over 499,-</p>
+    </div>
+    <header class="heading">
+        <div class="headingContent">
+            <img src="logo/legekrogen_logo.png" alt="" class="headerLogo">
+            <button class="burgerBtn fa-solid fa-bars" id="burgerBtn"></button>
+            <ul class="burger-menu" id="burger-menu">
+                <li class="nav-option">
+                  <a href="#gallery">Legetøj</a>
+                </li>
+                <li class="nav-option">
+                  <a href="#favorite">Månedens favorit</a>
+                </li>
+                <li class="nav-option">
+                  <a href="#formular">Kundeklub</a>
+                </li>
+              </ul>
+            <div class="navigation">
+                <a href="#gallery"><div class="nav">Legetøj</div></a>
+                <a href="#favorite"><div class="nav">Månedens favorit</div></a>
+                <a href="#formular"><div class="nav">Kundeklub</div></a>
+              </div>
+        </div>
+        
+    </header>
+
+    <section class="slider" id="slider">
+        <div class="slider-slides">
+            <img class="slider-slide">
+            <div class="slider-content">
+                <h1 class="hText">At lege er at leve</h1>
+                <p class="bText">Her hos os har vi et stort udvalg af legetøj i høj kvalitet</p>
+                <a href="linkpoint.html"><button>Læs Mere</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="hText">Et udpluk af vores</h1>
+        <h1 class="bText">LEGETØJ</h1>
+        <div class="gallery-container ">
+            <div class="box bText">
+                <div class="boxImage1 boxImage"></div>
+                <div class="boxContent">
+                    <p class="boxName">Tiny Republic Play <br> Tandlægesæt i træ</p>
+                    <p class="boxPrice">849 kr</p>
+                </div>
+            </div>
+            <div class="box bText">
+                <div class="boxImage2 boxImage"></div>
+                <div class="boxContent">
+                    <p class="boxName">Kids Concept <br> Edvin gåvogn</p>
+                    <p class="boxPrice">499 kr</p>
+                </div>
+            </div>
+            <div class="box bText">
+                <div class="boxImage3 boxImage">
+                    <div class="boxImage3Discount">30%</div>
+                </div>
+                <div class="boxContent">
+                    <p class="boxName">Vilac <br> Fire på stribe spil</p>
+                    <p class="boxPrice">69,30 kr</p>
+                </div>
+            </div>
+            <div class="box bText">
+                <div class="boxImage4 boxImage"></div>
+                <div class="boxContent">
+                    <p class="boxName">Tiny Republic Play <br> Isbod i træ</p>
+                    <p class="boxPrice">849 kr</p>
+                </div>
+            </div>
+            <a href="linkpoint.html"><button class="galleryButton">GÅ TIL LEGETØJ ></button></a>
+        </div>
+    </section>
+
+    <section class="favoriteAndReviews">
+        <section class="favorite bText" id="favorite">
+            <div class="favoriteContainer">
+                <h1 class="hText" style="font-size: 3rem;">Månedens</h1>
+                <h1 style="font-size: 3rem;">FAVORIT</h1>
+                <div class="starContainer">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <img src="img/product5.jpg" alt="" class="favoriteProduct">
+                <div class="favoriteText">
+                    <p>Kids Concept</p>
+                    <p>Neo gyngedinosaur</p>
+                    <p>749 kr</p>
+                </div>
+                <a href="linkpoint.html"><button class="favoriteButton">KØB GYNGEHESTEN HER</button></a>
+            </div>
+        </section>
+    
+        <section class="reviews">
+            <div class="review">
+                <p class="quote bText">"Bedste gyngehest nogenside"</p>
+                <p class="sender hText">- Andreas, far til Michael på 1 år</p>
+            </div>
+            <div class="review">
+                <p class="quote bText">"Min søn elsker sin nye trægyndehest. Han kalder en Hannibal"</p>
+                <p class="sender hText">- Heidi, mor til Hugo på 3 år</p>
+            </div>
+            <div class="review">
+                <p class="quote bText">"Virkelig god kvalitet, og pæn at ha stående i stuen"</p>
+                <p class="sender hText">- Camilla, mor til Sophia på 9 måneder</p>
+            </div>
+        </section>
+    </section>
+
+    
+
+    <section class="formular" id="formular">
+        <div class="formularImage">
+            <h2 class="formularText bText" style="font-size: 1rem;">Kunne du også tænke dig at blive medlem af vores</h2>
+            <h2 class="hText" style="font-size: 4rem; letter-spacing: 5px;">Kundeklub?</h2>
+            <div class="formularContent">
+                <form class="form" id="form">
+                    <input 
+                    type="text"
+                    class="inputField"
+                    name="name"
+                    required minlength="2"
+                    placeholder="Fulde navn"
+                    >
+                    <input 
+                    type="text"
+                    class="inputField"
+                    name="email"
+                    required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                    placeholder="Email"
+                    >
+                    <textarea 
+                    placeholder="Hvem køber du legetøj til?" 
+                    class="inputField textField"></textarea>
+
+                    <input
+                    type="submit"
+                    class="submitButton"
+                    name="submit"
+                    value="BLIV MEDLEM NU!"
+                    >
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="formularSent">
+        <div class="formMsg">Your message was sent!</div>
+    </section>
+
+
+    <footer class="footing">
+        <div class="contactContainer">
+            <h1 class="hText">Kundeservice</h1>
+            <div class="contactEmail">
+                <i class="fa-regular fa-envelope"></i>
+                <p>kontakt@legekrogen.dk</p>
+            </div>
+            <div class="contactPhone">
+                <i class="fa-solid fa-phone"></i>
+                <p>+45 23 45 67 89</p>
+            </div>
+        </div>
+        <div class="mediaContainer">
+            <h1 class="hText">Følg os</h1>
+            <a href="linkpoint.html"><i class="fa-brands fa-facebook footerIcon"></i></a>
+            <a href="linkpoint.html"><i class="fa-brands fa-instagram footerIcon"></i></a>
+        </div>
+        <img src="logo/legekrogen_logo.png" alt="" class="footerLogo">
+    </footer>
+    
+</body>
+</html>
